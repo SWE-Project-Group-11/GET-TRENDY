@@ -67,8 +67,8 @@ def send_query(col, val):
     mydb = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='lakeshow9824',
-        database='SWE_PROJECT'
+        password=' ',
+        database=' '
     )
 
     mycursor = mydb.cursor()
